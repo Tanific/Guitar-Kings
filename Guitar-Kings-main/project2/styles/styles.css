@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Boots And Spurs';
+    src: url(../fonts/BootsAndSpurs.ttf) format("truetype")  
+}
+
+h1 {
+    font-family: "Boots And Spurs", "Segoe UI", Tahoma, Verdana;
+}
+
+header, footer {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    font-family: "Boots And Spurs", "Segoe UI", Tahoma, Verdana;
+    text-decoration: none;
+}
+
+header a {
+    color: white;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.cta {
+    background-color: red;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.guitarinfo {
+    font-size: 20px;
+}
+
+.guitarinfo h2 {
+    font-size: 26px;
+    font-family: "Boots And Spurs", "Segoe UI", Tahoma, Verdana;
+}
+
+.reviews {
+    background-color: #d3d3d3;
+    font-family: 'Roboto', sans-serif;
+}
+
+.reviews h2 {
+    font-family: "Boots And Spurs", "Segoe UI", Tahoma, Verdana;
+}
+
+.viewbutton {
+    background-color: red;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    border-radius: 6%;
+}
+
+.guitarlist h3, h2 {
+    font-family: "Boots And Spurs", "Segoe UI", Tahoma, Verdana;
+}
+
+.guitarlist p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.viewbutton {
+    font-family: 'Roboto', sans-serif;
+}
