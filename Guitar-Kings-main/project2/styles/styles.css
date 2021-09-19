@@ -39,7 +39,7 @@ body {
 }
 
 .guitarinfo h2 {
-    font-size: 27px;
+    font-size: 26px;
     font-family: "Boots And Spurs", "Segoe UI", Tahoma, Verdana;
 }
 
@@ -69,5 +69,12 @@ body {
 }
 
 .viewbutton {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif; 
 }
+
+.headerbg {
+    background-image: url("../images/home-header.jpeg");
+    width: 500px;
+    height: 500px;
+}
+
