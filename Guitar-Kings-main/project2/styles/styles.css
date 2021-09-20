@@ -79,8 +79,9 @@ footer {
 /* Home page */
 .headerbg {
     background-image: url("../images/home-header.jpeg"); 
-    background-size: 100%;
+    background-size: cover;
     min-height: 70vh;
+    background-repeat: no-repeat;
 }
 
 .home-info {
