@@ -52,12 +52,13 @@ body {
     font-family: "Boots And Spurs", "Segoe UI", Tahoma, Verdana;
 }
 
-.viewbutton {
+.redbutton {
     background-color: red;
     font-size: 25px;
     color: white;
     text-decoration: none;
     border-radius: 6%;
+    padding: 1px;
 }
 
 .guitarlist h3, h2 {
