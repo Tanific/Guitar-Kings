@@ -31,7 +31,8 @@ body {
     text-decoration: none;
     color: white;
     font-size: 22px;
-    font-family: 'Roboto', sans-serif;
+    border-radius: 6%;
+    font-family: none;
 }
 
 .guitarinfo {
@@ -50,15 +51,6 @@ body {
 
 .reviews h2 {
     font-family: "Boots And Spurs", "Segoe UI", Tahoma, Verdana;
-}
-
-.redbutton {
-    background-color: red;
-    font-size: 25px;
-    color: white;
-    text-decoration: none;
-    border-radius: 6%;
-    padding: 1px;
 }
 
 .guitarlist h3, h2 {
@@ -91,4 +83,9 @@ footer {
 
 .reviewphoto {
     border-radius: 100%;
+}
+
+nav {
+    text-decoration: none;
+    display: list-item;
 }
