@@ -3,6 +3,7 @@
     src: url(../fonts/BootsAndSpurs.ttf) format("truetype")  
 }
 
+/*Homepage*/
 h1 {
     font-family: "Boots And Spurs", "Segoe UI", Tahoma, Verdana;
 }
@@ -13,27 +14,49 @@ header, footer {
     font-family: 'Roboto', sans-serif;
 }
 
+header a {
+    color: white;
+}
+
+footer {
+    text-align: center;
+}
+
 .logo {
     font-family: "Boots And Spurs", "Segoe UI", Tahoma, Verdana;
     text-decoration: none;
 }
 
-header a {
-    color: white;
-}
 
 body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* Links */
 .cta {
     background-color: red;
-    text-decoration: none;
     color: white;
     font-size: 22px;
-    font-family: none;
 }
 
+nav li {
+    display: inline-block;
+}
+
+nav ul {
+    padding: 0px;
+}
+
+a { 
+    text-decoration: none;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+
+/*Guitarinfo*/
 .guitarinfo {
     font-size: 20px;
 }
@@ -64,16 +87,16 @@ body {
     font-family: 'Roboto', sans-serif; 
 }
 
-footer {
-    text-align: center;
-}
+
 
 /* Home page */
 .headerbg {
     background-image: url("../images/home-header.jpeg"); 
     background-size: cover;
-    min-height: 70vh;
     background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    min-height: 70vh;
 }
 
 .home-info {
@@ -84,7 +107,10 @@ footer {
     border-radius: 100%;
 }
 
-nav li {
-    display: inline-block;
-    text-decoration: none;
+/*contactpage*/
+input,
+select,
+textarea {
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
 }
