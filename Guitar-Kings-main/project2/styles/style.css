@@ -31,7 +31,6 @@ body {
     text-decoration: none;
     color: white;
     font-size: 22px;
-    border-radius: 6%;
     font-family: none;
 }
 
@@ -85,7 +84,7 @@ footer {
     border-radius: 100%;
 }
 
-nav {
+nav li {
+    display: inline-block;
     text-decoration: none;
-    display: list-item;
 }
