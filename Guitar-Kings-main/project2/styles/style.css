@@ -44,9 +44,8 @@ body {
 }
 
 .cta-small {
-    padding: 8px 30px;
     font-size: 0.8em;
-    font-weight: bold;
+    padding: 8px 30px;
 }
 
 .cta-sale {
@@ -77,16 +76,10 @@ a {
 
 .guitarinfo h2 {
     font-size: 26px;
-    font-family: "Boots And Spurs", "Segoe UI", Tahoma, Verdana;
 }
 
 .reviews {
     background-color: #d3d3d3;
-    font-family: 'Roboto', sans-serif;
-}
-
-.reviews h2 {
-    font-family: "Boots And Spurs", "Segoe UI", Tahoma, Verdana;
 }
 
 .guitarlist h3, h2 {
@@ -114,14 +107,14 @@ a {
 }
 
 .home-info {
-    border-radius: 10%;
+    border-radius: 100px;
 }
 
 .reviewphoto {
     border-radius: 100%;
 }
 
-/*contactpage*/
+/* Contact page */
 input,
 select,
 textarea {
