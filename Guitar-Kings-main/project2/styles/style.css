@@ -28,7 +28,6 @@ footer {
     padding: 10px;
 }
 
-
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -95,7 +94,6 @@ a {
 }
 
 
-
 /* Home page */
 .headerbg {
     background-image: url("../images/home-header.jpeg"); 
@@ -113,6 +111,7 @@ a {
 .reviewphoto {
     border-radius: 100%;
 }
+
 
 /* Contact page */
 input,
