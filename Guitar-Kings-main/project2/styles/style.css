@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Boots And Spurs';
-    src: url(../fonts/BootsAndSpurs.ttf) format("truetype")  
+    src: url(../fonts/BootsAndSpurs.ttf) format("truetype");  
 }
 
 /*Homepage*/
@@ -11,11 +11,11 @@ h1 {
 header, footer {
     background-color: #202020;
     color: white;
-    font-family: 'Roboto', sans-serif;
 }
 
 header a {
     color: white;
+    padding: 10px;
 }
 
 footer {
@@ -25,6 +25,7 @@ footer {
 .logo {
     font-family: "Boots And Spurs", "Segoe UI", Tahoma, Verdana;
     text-decoration: none;
+    padding: 10px;
 }
 
 
@@ -34,9 +35,22 @@ body {
 
 /* Links */
 .cta {
-    background-color: red;
+    background-color: #BB0000;
     color: white;
-    font-size: 22px;
+    font-size: 1em;
+    padding: 10px 80px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.cta-small {
+    padding: 8px 30px;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.cta-sale {
+    background-color:#127300;
 }
 
 nav li {
