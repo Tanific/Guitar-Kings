@@ -95,13 +95,21 @@ a {
 
 
 /* Home page */
-.headerbg {
-    background-image: url("../images/home-header.jpeg"); 
+.welcome {
+    background-image: url("../images/home-header.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: bottom;
     min-height: 70vh;
+    position: relative;
+}
+
+.welcome_content {
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    text-align: center;
 }
 
 .home-info {
