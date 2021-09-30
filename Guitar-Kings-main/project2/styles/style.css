@@ -80,6 +80,7 @@ a {
 /*Guitarinfo*/
 .guitarinfo {
     font-size: 20px;
+    display: flex;
 }
 
 .guitarinfo h2 {
