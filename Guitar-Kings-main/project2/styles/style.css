@@ -4,8 +4,35 @@
 }
 
 /*Homepage*/
-h1 {
+body {
+    font-family: "Roboto", Verdana, Tahoma, sans-serif;
+}
+
+h1, 
+h2, 
+.logo {
     font-family: "Boots And Spurs", "Segoe UI", Tahoma, Verdana;
+}
+
+.product-list h2 {
+    font-family: "Roboto", Verdana, Tahoma, sans-serif;
+}
+
+header {
+    display: flex;
+    align-content: center;
+}
+
+nav {
+    margin-left: 25px;
+}
+
+nav ul {
+    padding: 0px;
+}
+
+nav li {
+    display: inline-block;
 }
 
 header, footer {
@@ -20,16 +47,6 @@ header a {
 
 footer {
     text-align: center;
-}
-
-.logo {
-    font-family: "Boots And Spurs", "Segoe UI", Tahoma, Verdana;
-    text-decoration: none;
-    padding: 10px;
-}
-
-body {
-    font-family: 'Roboto', sans-serif;
 }
 
 /* Links */
@@ -49,14 +66,6 @@ body {
 
 .cta-sale {
     background-color:#127300;
-}
-
-nav li {
-    display: inline-block;
-}
-
-nav ul {
-    padding: 0px;
 }
 
 a { 
@@ -80,19 +89,6 @@ a {
 .reviews {
     background-color: #d3d3d3;
 }
-
-.guitarlist h3, h2 {
-    font-family: "Boots And Spurs", "Segoe UI", Tahoma, Verdana;
-}
-
-.guitarlist p {
-    font-family: 'Roboto', sans-serif;
-}
-
-.viewbutton {
-    font-family: 'Roboto', sans-serif; 
-}
-
 
 /* Home page */
 .welcome {
