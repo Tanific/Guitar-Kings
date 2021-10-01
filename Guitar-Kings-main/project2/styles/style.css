@@ -76,21 +76,6 @@ a {
     text-decoration: underline;
 }
 
-
-/*Guitarinfo*/
-.guitarinfo {
-    font-size: 20px;
-    display: flex;
-}
-
-.guitarinfo h2 {
-    font-size: 26px;
-}
-
-.reviews {
-    background-color: #d3d3d3;
-}
-
 /* Home page */
 .welcome {
     background-image: url("../images/home-header.jpeg");
@@ -104,19 +89,56 @@ a {
 
 .welcome_content {
     position: absolute;
+    text-align: center;
     left: 100px;
     top: 100px;
-    text-align: center;
 }
 
-.home-info {
+.selling-points {
+    font-size: 20px;
+    margin: 50px auto;
+}
+
+.reviews_content,
+.selling-points {
+  max-width: 1000px;
+  display: flex;
+}
+
+.selling-points >*,
+.reviews_content >* {
+    flex: 1;
+}
+
+.selling-points-image {
     border-radius: 100px;
+    width: 100%
+}
+
+.reviews {
+    background-color: #d3d3d3;
+    text-align: center;
+    padding: 50px;
+}
+
+.reviews_content {
+    text-align: left;
+    margin: auto;
+}
+
+.reviews_content div {
+    margin: 50px;
 }
 
 .reviewphoto {
-    border-radius: 100%;
+    width: 80px;
+    border-radius: 50%;
+    float: right;
 }
 
+.reviews_name {
+    display: block;
+}
 
 /* Contact page */
 input,
