@@ -105,8 +105,8 @@ a {
   display: flex;
 }
 
-.selling-points >*,
-.reviews_content >* {
+.selling-points > *,
+.reviews_content > * {
     flex: 1;
 }
 
