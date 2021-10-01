@@ -147,3 +147,41 @@ textarea {
   border: 1px solid #c4c4c4;
   border-radius: 5px;
 }
+
+/* product specific page */
+.product-specific {
+    display: flex;
+    max-width: 1000px;
+    margin: 50px auto;
+}
+
+.product-specific > * {
+    flex: 1;
+}
+
+.adirondack-info {
+    padding: 0px 30px;
+}
+
+.adirondack-info a {
+    display: block;
+    width: 95.767px;
+    margin: auto;
+}
+
+.price {
+    font-size: 1.5em;
+}
+
+.product-image {
+    width: 100%;
+}
+
+.product-image-thumbnails {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+/* contact page */
