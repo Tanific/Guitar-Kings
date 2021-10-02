@@ -260,3 +260,34 @@ textarea {
     gap: 10px;
     margin-top: 5px;
 }
+
+/* guitar page */
+
+.guitarpage {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1000px;
+    margin: 50px auto;
+    grid-gap: 20px;
+    align-items: center;
+}
+
+.guitarpage img {
+    width: 100%;
+    grid-column: -1/1;
+}
+
+.guitarpage h1 {
+    grid-column: -1/1;
+}
+
+.product-baby {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+}
+
+.product-baby h3, p {
+    grid-column: 1;
+    margin: 5px
+}
