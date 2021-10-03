@@ -238,6 +238,7 @@ textarea {
 
 .adirondack-info {
     padding: 0px 30px;
+    margin: 20px 0px;
 }
 
 .adirondack-info a {
@@ -326,6 +327,11 @@ textarea {
         grid-template-columns: 1fr 1fr;
     }
 
+    .product-specific {
+        flex-direction: column-reverse;
+
+    }
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -339,5 +345,10 @@ textarea {
 
     .form-wrapper {
         flex-direction: column;
+    }
+     
+    .product-specific {
+        flex-direction: column;
+        grid-template-columns: 1fr;
     }
 }
