@@ -16,6 +16,7 @@ h1,
 h2, 
 .logo {
     font-family: "Boots And Spurs", "Segoe UI", Tahoma, Verdana;
+    text-align: center;
 }
 
 .product-list h2 {
@@ -283,6 +284,28 @@ textarea {
 }
 
 /* guitar page */
+
+.guitars {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.guitars .product-baby {
+    animation: show-guitars 1s forwards;
+    opacity: 0;
+}
+
+@keyframes show-guitars {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 
 .guitarpage {
     display: grid;
