@@ -61,6 +61,26 @@ footer {
     padding: 10px 80px;
     border-radius: 5px;
     text-transform: uppercase;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+}
+
+.cta:before { 
+    content: "";
+    padding: 10px;
+    background: #fff;
+    transform: rotate(45deg);
+    position: absolute;
+    height: 100px;
+    top: -40px;
+    left: -100px;
+    transition: left ease-in-out 1s;
+    opacity: 0.3;
+}
+
+.cta:hover:before {
+    left: 110%;
 }
 
 .cta-small {
