@@ -1,0 +1,96 @@
+.welcome {
+    background: url("../images/home-header.jpeg") center bottom no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    position: relative;
+}
+
+.welcome_content {
+    position: absolute;
+    text-align: center;
+    left: 100px;
+    top: 100px;
+}
+
+.selling-points {
+    font-size: 20px;
+    margin: 50px auto;
+}
+
+.reviews_content,
+.selling-points {
+  max-width: 1000px;
+  display: flex;
+  align-items: center;
+}
+
+.selling-points > *,
+.reviews_content > * {
+    flex: 1;
+}
+
+.selling-points-image {
+    border-radius: 100px;
+    width: 100%
+}
+
+.reviews {
+    background-color: #d3d3d3;
+    text-align: center;
+    padding: 50px;
+}
+
+.reviews_content {
+    text-align: left;
+    margin: auto;
+    align-items: normal;
+}
+
+.reviews_content div {
+    margin: 50px;
+}
+
+.reviewphoto {
+    width: 80px;
+    border-radius: 50%;
+    float: right;
+}
+
+.reviews_name {
+    display: block;
+}
+
+.products {
+    background-color: #fbfbfb;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+}
+
+.products img {
+    grid-column: -1/1;
+}
+
+.products h2,
+.products h3,
+.products p {
+    grid-column: 1;
+    font-size: 0.9em;
+    margin: 5px
+}
+
+.guitarlist {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1000px;
+    margin: 50px auto;
+    gap: 10px;
+}
+
+.guitarlist h2 {
+    grid-column: -1/1;
+}
+
+.guitarlist img {
+    width: 100%
+}

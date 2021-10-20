@@ -1,0 +1,56 @@
+@media only screen and (max-width: 900px) {
+    .selling-points {
+        flex-direction: column;
+    }
+    .selling-points-image {
+        max-width: 600px;
+    }
+
+    .reviews_content {
+        flex-direction: column;
+        max-width: 300px;
+        text-align: center;
+    }
+
+    .reviews_content div {
+        margin: 10px;
+    }
+
+    .reviewphoto {
+        float: none;
+    } 
+
+    .guitarlist {
+        flex-direction: column;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .guitarpage {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .product-specific {
+        flex-direction: column-reverse;
+
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .guitarlist {
+        grid-template-columns: 1fr;
+    }
+
+    .guitarpage {
+        grid-template-columns: 1fr;
+    }
+
+    .form-wrapper {
+        flex-direction: column;
+    }
+     
+    .product-specific {
+        flex-direction: column;
+        grid-template-columns: 1fr;
+    }
+}

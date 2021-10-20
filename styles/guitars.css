@@ -1,0 +1,59 @@
+.guitars {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.guitars .product-baby {
+    animation: show-guitars 1s forwards;
+    opacity: 0;
+}
+
+@keyframes show-guitars {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.guitarpage {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1000px;
+    margin: 50px auto;
+    gap: 20px;
+    align-items: center;
+}
+
+.guitarpage img {
+    width: 100%;
+    grid-column: -1/1;
+}
+
+.guitarpage h1 {
+    grid-column: -1/1;
+}
+
+.product-baby {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+}
+
+.product-baby h3,
+.product-baby p {
+    grid-column: 1;
+    margin: 5px
+}
+
+.products-sale {
+    display: flex;
+}
+
+.old-price {
+    text-decoration: line-through;
+}
